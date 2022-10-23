@@ -4,7 +4,7 @@ USE metro_cdmx;
 
 TRUNCATE TABLE `stations_delete`;
 
--- Esto es para que vean cómo un delete from NO reestablece los id
+-- Esto es para que vean cómo un truncate SI reestablece los id
 INSERT INTO `stations_delete` (name) VALUES
 ("Lázaro Cárdens"), -- Lázaro Cárdenas
 ("Ferería"), -- Ferrería 
